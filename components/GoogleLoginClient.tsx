@@ -9,6 +9,7 @@ import { verifyUserGoogleTokenQuery } from '@/graphql/query/user';
 
 const GoogleLoginClient: React.FC = () => {
   const handleSuccess = useCallback(async(response: CredentialResponse)=>{
+    console.log(response);
     const googleToken = response.credential;
     if(!googleToken) return toast.error(`Google token not found!`);
 
