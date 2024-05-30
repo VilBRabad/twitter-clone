@@ -21,6 +21,8 @@ const config: Config = {
         'span-13': 'span 13 / span 20',
         'span-14': 'span 14 / span 18',
         'span-16': 'span 16 / span 20',
+        'span-18': 'span 18 / span 20',
+        'span-20': 'span 20 / span 20',
       }
     },
   },
